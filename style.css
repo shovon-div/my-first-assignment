@@ -102,7 +102,7 @@ body{
     justify-content: center;
     align-items: center;
     width: 800px ;
-    height: 330px;
+    height: 310px;
     background-color: aliceblue;
     margin-top: 20px;
 }
@@ -110,7 +110,7 @@ h3{
     font-weight: 700;
     font-size: 24px;
 }
-p{
+p  {
     font-weight: 400;
     font-size: 15px;
 }
@@ -129,4 +129,82 @@ p{
 .inspiration-title{
     font-weight: 400;
     font-size: 15px;
+}
+.target-skills{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.target-html{
+    width: 300px;
+    height: 270px;
+    border-radius: 16px;
+    padding-top: 30px;
+    padding-left: 30px;
+    background-color: rgb(247, 236, 238);
+}
+.target-css{
+    width: 300px;
+    height: 270px;
+    border-radius: 16px;
+    padding-top: 30px;
+    padding-left: 30px;
+    background-color: rgb(226, 226, 237);
+}
+.target-js{
+    width: 300px;
+    height: 270px;
+    border-radius: 16px;
+    padding-top: 30px;
+    padding-left: 30px;
+    background-color: rgb(243, 243, 206);
+}
+.link{
+    color: black;
+    font-weight: bold;
+}
+.saport-container{
+    width: 940px;
+    height: 390px ;
+    margin: 0 auto;
+    border-radius: 16px;
+    background-image: url(assets/handshake.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: overlay;
+}
+.suport-heading{
+    font-weight: 700;
+    font-size: 32px;
+    color:white ;
+    text-align: center;
+}
+.suport-para{
+    font-weight: 400;
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+input[type="text"]{
+    width: 500px;
+    height: 60px;
+    padding: 20px;
+    border-radius: 8px;
+}
+input[type="submit"]{
+    width: 90px;
+    height: 60px;
+    font-weight: bold;
+    border-radius: 8px;
+}
+.form-container{
+    display: flex;
+    justify-content: center;
 }
