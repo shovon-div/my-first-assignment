@@ -52,7 +52,81 @@ body{
     border-radius: 8px;
     margin-top: 40px;
 }
-
-
-
-
+/* My-Container section here */
+.main-container{
+    border: none;
+    width: 940px;
+    height: 1280px;
+    margin: 75px auto;
+    padding: 80px, 97px, 80px, 97 ;
+    border-radius: 16px;
+    background-color: rgb(248, 247, 245);
+} 
+.dis-containe{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+}
+.main-title{
+    font-weight: 800;
+    font-size: 32px;
+    text-align: center;
+    margin: 20px;
+}
+.sub-title{
+    font-weight: 100;
+    font-size: 15px;
+    text-align: center;
+}
+.style-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 800px ;
+    height: 330px;
+    background-color: aliceblue;
+    margin-top: 20px;
+}
+.style-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 800px ;
+    height: 330px;
+    background-color: aliceblue;
+    margin-top: 20px;
+}
+.style-3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 800px ;
+    height: 330px;
+    background-color: aliceblue;
+    margin-top: 20px;
+}
+h3{
+    font-weight: 700;
+    font-size: 24px;
+}
+p{
+    font-weight: 400;
+    font-size: 15px;
+}
+.learn-btn{
+    width: 150px;
+    height: 48px;
+    padding: 12px, 20px, 12px, 20px ;
+}
+.inspiration{
+    text-align: center;
+}
+.inspiration-heading{
+    font-weight: 800;
+    font-size: 32px;
+}
+.inspiration-title{
+    font-weight: 400;
+    font-size: 15px;
+}
