@@ -47,10 +47,11 @@ body{
     font-weight: 600;
     font-size: 20px;
     color: rgb(255, 255, 255);
-    padding: 21px 24px;
+    padding: 21px 24px; 
     border: none;
     border-radius: 8px;
-    margin-top: 40px;
+    margin-top: 40px; 
+    text-align: center;
 }
 /* My-Container section here */
 .main-container{
@@ -67,6 +68,22 @@ body{
     align-items: center;
     flex-direction: column;
     margin-top: 30px;
+}
+.contact-btn{
+    background-color: black;
+    border-radius: 16px;
+    width: 250px;
+    height: 66px;
+    text-align: center;
+    margin: 0 auto;
+    cursor: pointer;
+}
+.contact-btn a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    
+    
 }
 .main-title{
     font-weight: 800;
@@ -207,4 +224,11 @@ input[type="submit"]{
 .form-container{
     display: flex;
     justify-content: center;
+}
+#footer-section{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin-top: 40px ;
+    padding: 10px 20px;
 }
